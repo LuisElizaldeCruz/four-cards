@@ -16,3 +16,22 @@
 .contenedor{
     font-family: 'Poppins', sans-serif;
 }
+
+.contenedor-texto{
+    width: 40%;
+    margin: auto;
+}
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 200px;
+    width: 250px;
+    background-color: var(--Very-Light-Gray);
+    margin: 10PX;
+    padding: 20px;
+    border: black 1px solid;
+}
