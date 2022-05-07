@@ -21,7 +21,10 @@
     width: 40%;
     margin: auto;
     text-align: center;
+    color: var(--Grayish-Blue);
+    margin-bottom: 30px;
 }
+
 .contenedor-tarjetas{
     display: flex;
     justify-content: center;
@@ -34,20 +37,39 @@
     background-color: var(--Very-Light-Gray);
     margin: 10PX;
     padding: 0 20px 20px 20px;
-    border: black 1px solid;
-    box-shadow: 5px 5px 10px var(--Grayish-Blue);
+    /* border: black 1px solid; */
+    box-shadow: 0 5px 10px var(--Grayish-Blue);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-hr{
+.columna{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.linea{
     margin-top: 0;
     padding: 2PX;
-    background-color: var(--Cyan);
     width: 100%;
-    
+}
+
+.lin-color1{
+    background-color: var(--Cyan);
+}
+
+.lin-color2{
+    background-color: var(--red);
+}
+.lin-color3{
+    background-color: var(--Orange);
+}
+.lin-color4{
+    background-color: var(--Blue);
 }
 
 .texto-tarjeta{
@@ -64,4 +86,17 @@ hr{
     height: 50px;
     width: 50px;
     margin: auto 0 0 auto;
+}
+
+h2{
+    color: var(--Very-Dark-Blue);
+}
+
+.slogan-pt1{
+    color: var(--Grayish-Blue);
+    font-weight: 200;
+}
+
+.descripcion{
+    font-size: 15px;
 }
