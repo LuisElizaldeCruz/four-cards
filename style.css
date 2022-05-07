@@ -20,6 +20,7 @@
 .contenedor-texto{
     width: 40%;
     margin: auto;
+    text-align: center;
 }
 .contenedor-tarjetas{
     display: flex;
@@ -32,6 +33,35 @@
     width: 250px;
     background-color: var(--Very-Light-Gray);
     margin: 10PX;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     border: black 1px solid;
+    box-shadow: 5px 5px 10px var(--Grayish-Blue);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+hr{
+    margin-top: 0;
+    padding: 2PX;
+    background-color: var(--Cyan);
+    width: 100%;
+    
+}
+
+.texto-tarjeta{
+    color: var(--Grayish-Blue);
+}
+
+.cargo{
+    color: var(--Very-Dark-Blue);
+    font-weight: 600;
+    
+}
+
+.icono{
+    height: 50px;
+    width: 50px;
+    margin: auto 0 0 auto;
 }
