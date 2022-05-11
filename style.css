@@ -100,3 +100,14 @@ h2{
 .descripcion{
     font-size: 15px;
 }
+
+@media screen and (max-width: 720px) {
+    .contenedor-tarjetas{
+        flex-direction: column;
+    }
+
+    .contenedor-texto{
+        width: 90%;
+        margin: 50px 30px;
+    }
+}
